@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Backend/">
+    <Project Path="src/Backend/EHouseSys.API/EHouseSys.API.csproj" Id="a10fb5ef-26cc-4bba-ad0e-7f8257f185b9" />
+    <Project Path="src/Backend/EHouseSys.Application/EHouseSys.Application.csproj" Id="3f8d1556-5dd1-4bb4-a42c-4a06dfc66083" />
+    <Project Path="src/Backend/EHouseSys.Domain/EHouseSys.Domain.csproj" Id="d284dfbb-df37-437d-b176-4a03437bb80c" />
+    <Project Path="src/Backend/EHouseSys.Infrastructure/EHouseSys.Infrastructure.csproj" Id="d1d67744-df02-4b60-8452-ab309d932655" />
+  </Folder>
+  <Folder Name="/src/Shared/">
+    <Project Path="src/Shared/EHouseSys.Communication/EHouseSys.Communication.csproj" Id="60315bd3-5791-4d14-aa08-211cf869ffb7" />
+    <Project Path="src/Shared/EHouseSys.Exceptions/EHouseSys.Exceptions.csproj" Id="62620bb9-e204-452b-ae5e-67d685f60e49" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
