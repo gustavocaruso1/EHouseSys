@@ -1,4 +1,24 @@
+using EHouseSys.Application.UseCases.Users.CreateUser;
+using EHouseSys.Domain.Repositories;
+using EHouseSys.Infrastructure.Data.Context;
+using EHouseSys.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+// DbContext
+builder.Services.AddDbContext<EHouseSysDbContext>(options =>
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")
+    )
+);
+
+// Repositories
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
+// UseCases
+builder.Services.AddScoped<ICreateUserUseCase, CreateUserUseCase>();
 
 // Add services to the container.
 

@@ -14,6 +14,7 @@
     <ProjectReference Include="..\..\Shared\EHouseSys.Communication\EHouseSys.Communication.csproj" />
     <ProjectReference Include="..\..\Shared\EHouseSys.Exceptions\EHouseSys.Exceptions.csproj" />
     <ProjectReference Include="..\EHouseSys.Application\EHouseSys.Application.csproj" />
+    <ProjectReference Include="..\EHouseSys.Infrastructure\EHouseSys.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
